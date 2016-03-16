@@ -31,7 +31,7 @@ local function run(msg,matches)
 end
 return {
   patterns = {
-	"^[!/](tosticker)$",
+	"^[!/](تبدیل به استیکر)$",
 	"%[(photo)%]",
   },
   run = run,
